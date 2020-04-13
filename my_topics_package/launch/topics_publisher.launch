@@ -1,0 +1,7 @@
+<launch>
+    <!-- My Topics Package launch file -->
+    <node pkg="my_topics_package" type="topic_publisher.py" name="Grandad" output="screen">
+    </node>
+    <node pkg="my_topics_package" type="topic_subscriber.py" name="Del" output="screen">
+    </node>
+</launch>

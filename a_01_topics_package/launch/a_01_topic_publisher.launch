@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="a_01_topics_package" type="a_01_topic_publisher.py" name="a_01_counter" output="screen"></node>
+	<node pkg="a_01_topics_package" type="a_01_topic_subscriber.py" name="a_01_counter_subscriber" output="screen"></node>
+</launch>

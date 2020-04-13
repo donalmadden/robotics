@@ -1,0 +1,12 @@
+background_b: 255
+background_g: 86
+background_r: 150
+rosdistro: 'melodic
+
+  '
+roslaunch:
+  uris: {host_ubuntu__38141: 'http://ubuntu:38141/', host_ubuntu__39953: 'http://ubuntu:39953/'}
+rosversion: '1.14.3
+
+  '
+run_id: 01c28760-52fc-11ea-bdb7-000c298eebf3

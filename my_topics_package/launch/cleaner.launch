@@ -1,0 +1,5 @@
+<launch>
+    <!-- My Topics Package launch file -->
+    <node pkg="my_topics_package" type="robot_cleaner.py" name="Scrubber" output="screen">
+    </node>
+</launch>

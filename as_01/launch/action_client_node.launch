@@ -1,0 +1,3 @@
+<launch>
+	<node pkg="as_01" type="action_client_node.py" name="action_client_node" output="screen"></node>
+</launch>

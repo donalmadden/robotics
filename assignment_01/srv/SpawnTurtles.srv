@@ -1,0 +1,4 @@
+int32 numTurtles
+---
+geometry_msgs/Vector3[] coordinates
+string[] names

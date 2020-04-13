@@ -1,0 +1,9 @@
+<launch>
+    <!-- My Topics Package launch file -->
+    <node pkg="my_topics_package" type="counter.py" name="Grandad" output="screen">
+    </node>
+    <node pkg="my_topics_package" type="subscriber.py" name="Del" output="screen">
+    </node>
+    <node pkg="my_topics_package" type="turtle_age.py" name="Rodders" output="screen">
+    </node>
+</launch>

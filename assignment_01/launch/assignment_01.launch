@@ -1,0 +1,8 @@
+<launch>
+    <!-- Assignment 01 launch file -->
+    <node pkg="turtlesim" type="turtlesim_node" name="sim" />
+    <node pkg="assignment_01" type="init_factory_floor.py" name="init_factory_floor" />
+    <node pkg="assignment_01" type="clean_factory_floor.py" name="clean_factory_floor" />
+    <node pkg="assignment_01" type="plan_turtle_route.py" name="plan_turtle_route" />
+    <node pkg="assignment_01" type="init_factory_floor_client.py" name="init_factory_floor_service_client" />
+</launch>

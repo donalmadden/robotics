@@ -1,0 +1,4 @@
+<launch>
+	<!-- a_01 launch file -->
+	<node pkg="a_01" type="simpler.py" name="Trigger" output="screen"></node>
+</launch>

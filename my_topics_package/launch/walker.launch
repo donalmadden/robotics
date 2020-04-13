@@ -1,0 +1,5 @@
+<launch>
+    <!-- My Topics Package launch file -->
+    <node pkg="my_topics_package" type="robot_walker.py" name="Stroller" output="screen">
+    </node>
+</launch>

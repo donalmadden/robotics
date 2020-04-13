@@ -1,0 +1,4 @@
+<launch>
+    <!-- Assignment 01 launch file -->
+    <node pkg="assignment_01" type="init_factory_floor.py" name="init_factory_floor" />
+</launch>
